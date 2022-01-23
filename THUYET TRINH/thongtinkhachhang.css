@@ -1,0 +1,58 @@
+.menu ul li{
+    display:inline-block;
+}
+    
+body{
+    padding:20px;
+    background-color: black;
+}
+    
+.sidebar{
+    display: flex;
+    background-color: black;
+}
+
+.sidebar ul a{
+    font-size: 15px;
+    color:plum;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    color:plum;
+}
+
+label {
+    display: inline-block;
+    margin: 5px 0px;
+    color: blanchedalmond;
+}
+    
+input{
+    padding: 10px 10px;
+    outline: none;
+}
+    
+select{
+    padding: 5px 10px;
+}
+    
+button{
+    margin-top: 10px;
+    padding:7px 20px;
+    background-color: orange;
+    border: none;
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    color:plum;
+}
+
+h1{
+    color: red;
+    background-color: black;
+}
+

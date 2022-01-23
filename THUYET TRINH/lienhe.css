@@ -1,0 +1,40 @@
+.menu ul li{
+    display:inline-block;
+}
+    
+body{
+    padding:20px;
+    background-color: black;
+}
+
+.sidebar{
+    display: flex;
+    background-color: black;
+}
+
+.sidebar ul a{
+    font-size: 15px;
+    color:plum;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    color:plum;
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    color:plum;
+}
+
+h2{
+    color:red;
+}
+
+.contact ul li{
+    font-size: 15px;
+    margin-top: 10px;
+    color:blanchedalmond;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du lịch muôn nơi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <header>Du lịch muôn nơi<i class="fas fa-fighter-jet"></i></header>
+        <div class="menu">
+            <ul>
+                <li><a href="trangchu.html">Trang chủ</a></li>
+                <li><a href="gioithieu.html">Gioi thiệu</a></li>
+                <li><a href="dichvu.html">Dịch vụ</a></li>
+                <li><a href="thongtinkhachhang.html">Đơn đăng kí</a></li>
+                <li><a href="lienhe.html">Liên hệ</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <article>
+        <h2>Chuyên nghiệp</h2>
+        <p>"Du lịch muôn nơi" ra đời với mong muốn mọi người sẽ tiếp cận với dịch vụ tư vấn khách hàng cao cấp nhất, xứng đáng với thời gian & chi phí mà khách hàng bỏ ra. Khách hàng có thể trải nghiệm dịch vụ sang trọng nhất, khách sạn 5 sao, thưởng thức các đặc sản muôn nơi,..... "Du lịch muôn nơi" giúp quý khách du lịch khắp mọi nơi như :Châu Á, Châu Âu, Châu Mỹ và Châu Úc mà không cần xin visa </p>
+    </article>
+
+    <div class="image-slider">
+        <div class="image-item">
+            <img src="https://images.unsplash.com/photo-1522547902298-51566e4fb383?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXNpYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+        <div class="image-item">
+            <img src="https://images.unsplash.com/photo-1565881606991-789a8dff9dbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGV1cm9wZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+        <div class="image-item">
+            <img src="https://images.unsplash.com/photo-1511055882449-bef7ffcedac0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGFtZXJpY2F8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+        <div class="image-item">
+            <img src="https://images.unsplash.com/photo-1530276371031-2511efff9d5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGF1c3RyYWxpYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+    </div>
+
+    <div class="image-slider slick-initialized slick-slider">
+        <button class="slick-prev slick-arrow" aria-label="previous" type="bottom" styles="display:inline-block">Previous</button>
+        <button class="slick-prev slick-arrow" aria-label="next" type="bottom" styles="display:inline-block">Next</button>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./app.js"> </script>
+
+    <script>
+    $(document).ready(function(){
+        $('.image-slider').slick({
+        slidesToShow: 3,
+        dots:true,
+        centerMode: true,
+        });
+    });
+    </script>
+
+    <div class="sidebar">
+        <footer>©2002 MP Entertainment</footer>
+        <div class="menu">
+            <ul>
+                <li><a href="">facebook</a></li>
+                <li><a href="">instagram</a></li>
+                <li><a href="https://www.youtube.com/channel/UCPotnGNahFjLWjfsq4KYvuQ">youtube</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

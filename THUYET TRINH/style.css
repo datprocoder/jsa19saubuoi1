@@ -1,0 +1,54 @@
+.menu ul li{
+    display:inline-block;
+}
+    
+body{
+    padding:20px;
+    background-color: black;
+}
+    
+.image-slider{
+    width:90%;
+    margin:0px auto;
+}
+    
+.slick-slide{
+    margin:10px;
+}
+    
+.slick-slide img{
+    width:100%;
+    border: 2px solid #fff;
+    height: 500px;
+    object-fit: cover;
+}
+
+.sidebar{
+    display: flex;
+    background-color: black;
+}
+
+.sidebar ul a{
+    font-size: 15px;
+    color: plum;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    color: plum;
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    color:plum;
+}
+
+h2{
+    color:red;
+}
+
+p{
+    color:blanchedalmond
+}
